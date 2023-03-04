@@ -1,0 +1,159 @@
+*{
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 100%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 60px;
+    padding: 2px;
+    text-transform: lowercase;
+    display: block;
+    width: 60%;
+    height: 400px;
+}
+
+::placeholder{ color: #0A3871;}
+  .text-area:focus{
+    outline: none;
+  }
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    padding-bottom: 60px;
+}
+
+.informacion{
+    font-size: 12px;
+    color: #495057;
+}
+
+.informacion:hover{
+    font-weight: bolder;
+    color: #2b323a;
+}
+
+.btn-desencriptar{
+    background: #D8dfe8;
+    border: 1px solid #0A3871;
+    border-radius:  24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover{
+    background: #8a9bb0;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+    background: #495057;
+}
+
+.mensaje{
+    height: 580px;
+    background: white;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 25%;
+    box-shadow: 0px 0px 5px 5px hsl(0, 1%, 74%);
+}
+
+.muñeco{
+    background-repeat: no-repeat;
+    margin-left: 130px;
+    margin-top: 130px;
+    padding-left: 20px;
+    width: 20%;
+    height: 370px;
+    position: fixed;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 525px;
+    position: absolute;
+    width: 300px;
+}
+
+.copiar:hover{
+    background: #8a9bb0;
+}
+
+.ocultar{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    background: #0A3871;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+}
+
+.foot{
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.realizado{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.red, a{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
